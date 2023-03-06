@@ -1,2 +1,2 @@
 # CrawlerMaster
-![Screenshots](code.png)
+<img src="images/code.png" width="128"/>
