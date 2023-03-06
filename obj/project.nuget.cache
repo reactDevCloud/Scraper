@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ep9EsszCJBZ55fNikASAfy3yMr1wiXQgFyoC6ozUfLNBaf55XifAnURckZtwPoSIulm6M/Fl36HTpdGm3Q5Rcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aakas\\source\\repos\\Scraper\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aakas\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
