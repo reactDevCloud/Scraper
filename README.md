@@ -1,2 +1,2 @@
 # CrawlerMaster
-![Screenshot](code.png)
+![Screenshots](code.png)
