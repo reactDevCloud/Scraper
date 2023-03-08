@@ -105,17 +105,15 @@ public class UrlManager
 
         
         // validate url
-        if(_urlValidator.Validate(url))
-        {
-            return true;
-        } 
-        // validate url by appending base to url. example :- baseUrl + /blogs
-        else if(BaseUrl != null && _urlValidator.Validate(GetAbsoluteUrl(url)))
-        {
-            return true;
-        }
+        var result = _urlValidator.Validate(url);
 
-        return false;
+        // validate url by appending base to url. example :- baseUrl + /blog   
+        if(!result && BaseUrl != null)
+        {
+            return _urlValidator.Validate(GetAbsoluteUrl(url));
+        }
+        
+        return result;
     }
 
     /// <scheme>
